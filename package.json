@@ -1,0 +1,58 @@
+{
+  "name": "templatejs",
+  "version": "0.1.0",
+  "description": "Template for (Node)JS projects",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest && codecov",
+    "doc": "jsdoc -c ./config/.jsdocrc",
+    "lint": "eslint -c ./config/.eslintrc.js src/*.js test/.*js --fix",
+    "cc": "cr -c ./config/.complexrc",
+    "precommit": "lint-staged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Berkmann18/TemplateJS.git"
+  },
+  "keywords": [
+    "Template",
+    "JS",
+    "NodeJS",
+    "GitHub"
+  ],
+  "author": "Maximilian Berkmann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Berkmann18/TemplateJS/issues"
+  },
+  "homepage": "https://github.com/Berkmann18/TemplateJS#readme",
+  "devDependencies": {
+    "codecov": "^3.0.4",
+    "complexity-report": "^2.0.0-alpha",
+    "eslint": "^5.2.0",
+    "eslint-plugin-security": "^1.4.0",
+    "husky": "^0.14.3",
+    "jest": "^23.4.1",
+    "jest-cli": "^23.4.1",
+    "jsdoc": "^3.5.5",
+    "lint-staged": "^7.2.0",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.0.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 9"
+  ],
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  }
+}

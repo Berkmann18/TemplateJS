@@ -1,0 +1,19 @@
+{
+  "format": "markdown",
+  "allfiles": false,
+  "ignoreerrors": false,
+  "filepattern": "\\.js$",
+  "dirpattern": "src",
+  "maxfiles": 256,
+  "maxcost": 100,
+  "maxsize": 25,
+  "minmi": 45,
+  "maxcyc": 11,
+  "maxcycden": 100,
+  "silent": false,
+  "logicalor": false,
+  "switchcase": false,
+  "forin": true,
+  "trycatch": true,
+  "newmi": true
+}

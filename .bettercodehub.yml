@@ -1,0 +1,7 @@
+exclude:
+    - /doc/.*
+    - /config/.*
+    - /build/.*
+
+languages:
+    - javascript
