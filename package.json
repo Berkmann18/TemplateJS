@@ -1,5 +1,5 @@
 {
-  "name": "templatejs",
+  "name": "tempjs",
   "version": "0.1.0",
   "private": "true",
   "description": "Template for (Node)JS projects",
@@ -55,5 +55,9 @@
       "eslint --fix",
       "git add"
     ]
+  },
+  "engines": {
+    "node": ">= 7.0.0",
+    "npm": ">= 4.0.0"
   }
 }
