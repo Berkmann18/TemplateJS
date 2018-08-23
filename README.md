@@ -6,7 +6,7 @@
 [![NodeVersion](https://img.shields.io/node/v/templatejs.svg)](https://github.com/Berkmann18/TemplateJS)
 [![GH Downloads](https://img.shields.io/github/downloads/Berkmann18/TemplateJS/total.svg)](https://github.com/Berkmann18/TemplateJS/network/members)
 [![GitHub package version](https://img.shields.io/github/package-json/v/Berkmann18/TemplateJS.svg)](https://github.com/Berkmann18/TemplateJS)
-[![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/y/Berkmann18/TemplateJS.svg)](https://github.com/Berkmann18/TemplateJS/graphs/commit-activity)
+[![GitHub commit activity the past year](https://img.shields.io/github/commit-activity/y/Berkmann18/TemplateJS.svg)](https://github.com/Berkmann18/TemplateJS/graphs/commit-activity)
 [![GitHub contributors](https://img.shields.io/github/contributors/Berkmann18/TemplateJS.svg)](https://github.com/Berkmann18/TemplateJS/graphs/contributors)
 [![Github search hit counter](https://img.shields.io/github/search/Berkmann18/TemplateJS/goto.svg)](https://github.com/Berkmann18/TemplateJS/graphs/traffic)
 [![NSP Status](https://nodesecurity.io/orgs/berkmann18/projects/7e47430b-3eb0-4aa4-8c23-5200c0a0ed86/badge)](https://nodesecurity.io/orgs/berkmann18/projects/7e47430b-3eb0-4aa4-8c23-5200c0a0ed86)

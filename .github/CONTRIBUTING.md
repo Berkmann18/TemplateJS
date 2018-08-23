@@ -10,6 +10,7 @@
 7. If you fix an issue, mention `fix #x` (where x is the issue number).
 8. Ensure that you use the appropriate code style (that can be checked
 with `npm run lint`).
+9. Make sure you follow the [ESLint commit convention](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-eslint).
 
 ## Project structure
 - **`build`**: contains built files for distribution.
