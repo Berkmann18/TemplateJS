@@ -14,7 +14,8 @@
     "doc": "jsdoc -c ./config/.jsdocrc",
     "lint": "eslint -c ./config/.eslintrc.js src/*.js test/.*js --fix",
     "cc": "cr -c ./config/.complexrc",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "com": "git-cz"
   },
   "repository": {
     "type": "git",
@@ -35,6 +36,7 @@
   "devDependencies": {
     "codecov": "^3.0.4",
     "complexity-report": "^2.0.0-alpha",
+    "cz-adapter-eslint": "^0.1.2",
     "eslint": "^5.2.0",
     "eslint-plugin-security": "^1.4.0",
     "husky": "^0.14.3",
@@ -59,5 +61,10 @@
   "engines": {
     "node": ">= 7.0.0",
     "npm": ">= 4.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-adapter-eslint"
+    }
   }
 }

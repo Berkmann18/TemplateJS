@@ -22,6 +22,7 @@
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Berkmann18/TemplateJS/issues)
 [![GitHub top language](https://img.shields.io/github/languages/top/Berkmann18/TemplateJS.svg)](https://github.com/Berkmann18/TemplateJS)
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Berkmann18/TemplateJS.svg)](https://github.com/Berkmann18/TemplateJS)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 <!-- SauceLab badge -->
 <!-- [![Sauce Test Status](https://saucelabs.com/buildstatus/Berkmann18/TemplateJS)](https://saucelabs.com/u/Berkmann18/TemplateJS) -->
 <!-- [![Sauce Test Status](https://saucelabs.com/browser-matrix/Berkmann18/TemplateJS.svg)](https://saucelabs.com/u/Berkmann18/TemplateJS) -->
