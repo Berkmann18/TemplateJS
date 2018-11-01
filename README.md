@@ -1,4 +1,5 @@
 # TemplateJS
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/bf10aeb2dd44479cb53196ccd2c277f1)](https://app.codacy.com/app/maxieberkmann/TemplateJS?utm_source=github.com&utm_medium=referral&utm_content=Berkmann18/TemplateJS&utm_campaign=Badge_Grade_Dashboard)
 <!--[![NPM](https://nodei.co/npm/templatejs.png)](https://nodei.co/npm//)-->
 <!-- [![Downloads](https://img.shields.io/npm/dm/templatejs.svg)](https://npmcharts.com/compare/templatejs?minimal=true) -->
 <!-- [![Inline docs](http://inch-ci.org/github/Berkmann18/templatejs.svg?branch=master)](http://inch-ci.org/github/Berkmann18/templatejs) -->
