@@ -44,7 +44,7 @@
   },
   "homepage": "https://github.com/Berkmann18/TemplateJS#readme",
   "devDependencies": {
-    "codecov": "^3.0.4",
+    "codecov": "^3.1.0",
     "complexity-report": "^2.0.0-alpha",
     "cz-adapter-eslint": "^0.1.2",
     "documentation": "^8.1.2",
