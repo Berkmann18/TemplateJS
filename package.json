@@ -1,6 +1,6 @@
 {
   "name": "tempjs",
-  "version": "0.2.0",
+  "version": "0.0.0-development",
   "private": "true",
   "description": "Template for (Node)JS projects",
   "main": "index.js",
@@ -25,11 +25,13 @@
     "min:css": "node-sass -w scss/ -o dist/css/ --recursive --output-style compressed",
     "css": "node-sass -w scss/ -o dist/css/ --recursive",
     "lint:css": "stylelint --config ./config/.stylelintrc.json scss/",
-    "lint": "npm run lint:js && npm run lint:css && npm run lint:md"
+    "lint": "npm run lint:js && npm run lint:css && npm run lint:md",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Berkmann18/TemplateJS.git"
+    "url": "https://github.com/Berkmann18/TemplateJS.git"
   },
   "keywords": [
     "Template",
@@ -60,7 +62,9 @@
     "remark-preset-lint-recommended": "^3.0.2",
     "sass-loader": "^7.0.1",
     "stylelint": "^9.7.1",
-    "stylelint-config-standard": "^18.2.0"
+    "stylelint-config-standard": "^18.2.0",
+    "travis-deploy-once": "^5.0.9",
+    "semantic-release": "^15.10.8"
   },
   "browserslist": [
     "> 1%",
