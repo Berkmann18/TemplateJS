@@ -14,10 +14,7 @@
 [![Github search hit counter](https://img.shields.io/github/search/Berkmann18/TemplateJS/goto.svg)](https://github.com/Berkmann18/TemplateJS/graphs/traffic)
 <!-- [![NSP Status](https://nodesecurity.io/orgs/berkmann18/projects/7e47430b-3eb0-4aa4-8c23-5200c0a0ed86/badge)](https://nodesecurity.io/orgs/berkmann18/projects/7e47430b-3eb0-4aa4-8c23-5200c0a0ed86) -->
 
-
-
-<!--Change to correct badge: [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&identifier=115825259)](https://dependabot.com)-->
-
+[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=Berkmann18/TemplateJS)](https://dependabot.com)
 [![Build Status](https://travis-ci.org/Berkmann18/TemplateJS.svg?branch=master)](https://travis-ci.org/Berkmann18/TemplateJS)
 [![codecov.io Code Coverage](https://img.shields.io/codecov/c/github/Berkmann18/TemplateJS.svg?maxAge=2592000)](https://codecov.io/github/Berkmann18/TemplateJS?branch=master)
 [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)

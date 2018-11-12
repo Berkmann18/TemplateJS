@@ -93,11 +93,5 @@
     "commitizen": {
       "path": "cz-adapter-eslint"
     }
-  },
-  "remarkConfig": {
-    "plugins": [
-      "remark-preset-lint-recommended",
-      "remark-preset-lint-consistent"
-    ]
   }
 }
