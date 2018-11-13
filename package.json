@@ -14,7 +14,7 @@
     "doc:lint": "documentation lint index.js",
     "doc:html": "documentation build *.js -f html -o doc/ -a public",
     "doc": "npm run doc:lint && npm run doc:html",
-    "lint:js": "eslint -c ./.eslintrc.js src/*.js test/*.js --fix",
+    "lint:js": "eslint -c ./.eslintrc.json src/*.js test/*.js --fix",
     "cc": "cr -c ./.complexrc",
     "cc:all": "npm run cc *.js src/*.js",
     "changelog": "conventional-changelog -p eslint -i CHANGELOG.md -s -r 0",
@@ -72,7 +72,7 @@
   ],
   "lint-staged": {
     "*.js": [
-      "eslint -c ./.eslintrc.js --fix",
+      "eslint -c ./.eslintrc.json --fix",
       "git add"
     ],
     "*.md": [
