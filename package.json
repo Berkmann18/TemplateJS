@@ -19,7 +19,6 @@
     "cc:all": "npm run cc *.js src/*.js",
     "changelog": "conventional-changelog -p eslint -i CHANGELOG.md -s -r 0",
     "version": "npm run changelog && git add CHANGELOG.md",
-    "precommit": "lint-staged",
     "com": "git-cz",
     "lint:md": "remark . .github -i ./.remarkignore",
     "min:css": "node-sass -w scss/ -o dist/css/ --recursive --output-style compressed",
@@ -92,6 +91,11 @@
   "config": {
     "commitizen": {
       "path": "cz-adapter-eslint"
+    }
+  },
+  "husky": {
+    "hooks": {
+        "pre-commit": "lint-staged"
     }
   }
 }
