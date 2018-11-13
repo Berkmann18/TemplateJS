@@ -14,17 +14,17 @@
     "doc:lint": "documentation lint index.js",
     "doc:html": "documentation build *.js -f html -o doc/ -a public",
     "doc": "npm run doc:lint && npm run doc:html",
-    "lint:js": "eslint -c ./config/.eslintrc.js src/*.js test/*.js --fix",
-    "cc": "cr -c ./config/.complexrc",
+    "lint:js": "eslint -c ./.eslintrc.js src/*.js test/*.js --fix",
+    "cc": "cr -c ./.complexrc",
     "cc:all": "npm run cc *.js src/*.js",
     "changelog": "conventional-changelog -p eslint -i CHANGELOG.md -s -r 0",
     "version": "npm run changelog && git add CHANGELOG.md",
     "precommit": "lint-staged",
     "com": "git-cz",
-    "lint:md": "remark . .github -i ./config/.remarkignore",
+    "lint:md": "remark . .github -i ./.remarkignore",
     "min:css": "node-sass -w scss/ -o dist/css/ --recursive --output-style compressed",
     "css": "node-sass -w scss/ -o dist/css/ --recursive",
-    "lint:css": "stylelint --config ./config/.stylelintrc.json scss/",
+    "lint:css": "stylelint --config ./.stylelintrc.json scss/",
     "lint": "npm run lint:js && npm run lint:css && npm run lint:md",
     "travis-deploy-once": "travis-deploy-once",
     "semantic-release": "semantic-release"
@@ -73,7 +73,7 @@
   ],
   "lint-staged": {
     "*.js": [
-      "eslint -c ./config/.eslintrc.js --fix",
+      "eslint -c ./.eslintrc.js --fix",
       "git add"
     ],
     "*.md": [
@@ -81,7 +81,7 @@
       "git add"
     ],
     "*.scss": [
-      "stylelint --config ./config/.stylelintrc.json",
+      "stylelint --config ./.stylelintrc.json",
       "git add"
     ]
   },
