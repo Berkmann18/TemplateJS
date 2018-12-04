@@ -12,10 +12,11 @@ node_js:
   - '6'
 install:
   - npm i
-  - npm i -g jest codecov eslint conventional-changelog
+  - npm i -g jest codecov eslint conventional-changelog snyk
 script:
   - npm run lint
   - npm test
+  - snyk test
   - codecov
 after_success:
   - npm run travis-deploy-once "npm run semantic-release"
