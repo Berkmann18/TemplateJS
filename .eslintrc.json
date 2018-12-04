@@ -4,8 +4,10 @@
     "es6": true,
     "node": true
   },
-  "plugins": ["security"],
-  "extends": "plugin:security/recommended",
+  "extends": [
+    "plugin:security/recommended",
+    "plugin:you-dont-need-lodash-underscore/compatible"
+  ],
   "rules": {
     "indent": [
       "error",
