@@ -19,9 +19,9 @@ about: Create a report to help us improve
 ## Environment
 -   Version: 
 -   OS(s): 
--   Browser(s): 
--   Node version: 10.7.0
--   NPM version: 6.2.0   
+-   Browser(s) (if applicable): 
+-   Node version: 
+-   NPM version: 
 
 ## Link or repo
 <!-- Paste a REPL/CodePen/LogRocket or minimal Github repo link -->
