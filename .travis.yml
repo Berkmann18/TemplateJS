@@ -15,7 +15,7 @@ install:
   - npm i -g jest codecov eslint conventional-changelog snyk
 script:
   - npm run lint
-  - snyk auth SNYK_TOKEN
+  - snyk auth $SNYK_TOKEN
   - npm test
   - codecov
 after_success:
