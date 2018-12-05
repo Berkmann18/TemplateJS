@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "test": "jest",
+    "test": "snyk test && jest",
     "doc:lint": "documentation lint index.js",
     "doc:html": "documentation build *.js -f html -o doc/ -a public",
     "doc": "npm run doc:lint && npm run doc:html",
@@ -26,7 +26,8 @@
     "lint:css": "stylelint --config ./.stylelintrc.json scss/",
     "lint": "npm run lint:js && npm run lint:css && npm run lint:md",
     "travis-deploy-once": "travis-deploy-once",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "prepublish": "snyk protect"
   },
   "repository": {
     "type": "git",
@@ -64,7 +65,8 @@
     "semantic-release": "^15.12.4",
     "stylelint": "^9.9.0",
     "stylelint-config-standard": "^18.2.0",
-    "travis-deploy-once": "^5.0.9"
+    "travis-deploy-once": "^5.0.9",
+    "snyk": "^1.111.1"
   },
   "browserslist": [
     "> 1%",
