@@ -27,7 +27,7 @@
     "lint": "npm run lint:js && npm run lint:css && npm run lint:md",
     "travis-deploy-once": "travis-deploy-once",
     "semantic-release": "semantic-release",
-    "prepublish": "snyk protect"
+    "prepare": "snyk protect"
   },
   "repository": {
     "type": "git",
@@ -63,10 +63,10 @@
     "remark-preset-lint-recommended": "^3.0.2",
     "sass-loader": "^7.0.1",
     "semantic-release": "^15.12.4",
+    "snyk": "^1.116.2",
     "stylelint": "^9.9.0",
     "stylelint-config-standard": "^18.2.0",
-    "travis-deploy-once": "^5.0.9",
-    "snyk": "^1.111.1"
+    "travis-deploy-once": "^5.0.9"
   },
   "browserslist": [
     "> 1%",
