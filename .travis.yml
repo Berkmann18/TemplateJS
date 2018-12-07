@@ -12,7 +12,7 @@ node_js:
   - '6'
 install:
   - npm i
-  - npm i -g jest codecov eslint conventional-changelog conventional-changelog-eslint snyk
+  - npm i -g jest codecov eslint conventional-changelog snyk
 script:
   - npm run lint
   - snyk auth $SNYK_TOKEN
