@@ -1,6 +1,6 @@
 {
   "name": "tempjs",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "private": "true",
   "description": "Template for (Node)JS projects",
   "main": "index.js",
