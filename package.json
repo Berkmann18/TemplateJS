@@ -48,6 +48,7 @@
     "@semantic-release/git": "^7.0.5",
     "codecov": "^3.1.0",
     "complexity-report": "^2.0.0-alpha",
+    "conventional-changelog-eslint": "^3.0.1",
     "cz-adapter-eslint": "^0.1.2",
     "documentation": "^9.0.0",
     "eslint": "^5.10.0",
