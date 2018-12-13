@@ -37,7 +37,10 @@
     "NodeJS",
     "GitHub"
   ],
-  "author": "Maximilian Berkmann",
+  "author": {
+    "name": "Maximilian Berkmann",
+    "email": "maxieberkmann@gmail.com"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Berkmann18/TemplateJS/issues"
@@ -46,7 +49,6 @@
   "devDependencies": {
     "@semantic-release/changelog": "^3.0.1",
     "@semantic-release/git": "^7.0.5",
-    "codecov": "^3.1.0",
     "complexity-report": "^2.0.0-alpha",
     "conventional-changelog-eslint": "^3.0.1",
     "cz-adapter-eslint": "^0.1.2",
