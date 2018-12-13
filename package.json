@@ -17,8 +17,6 @@
     "lint:js": "eslint -c ./.eslintrc.json src/*.js test/*.js --fix",
     "cc": "cr -c ./.complexrc",
     "cc:all": "npm run cc *.js src/*.js",
-    "changelog": "conventional-changelog -p eslint -i CHANGELOG.md -s -r 0",
-    "ver": "npm run changelog && git add CHANGELOG.md",
     "com": "git-cz",
     "lint:md": "remark . .github -i ./.remarkignore",
     "min:css": "node-sass -w scss/ -o dist/css/ --recursive --output-style compressed",
@@ -48,8 +46,6 @@
   "devDependencies": {
     "codecov": "^3.1.0",
     "complexity-report": "^2.0.0-alpha",
-    "conventional-changelog": "^3.0.5",
-    "conventional-changelog-eslint": "^3.0.1",
     "cz-adapter-eslint": "^0.1.2",
     "documentation": "^9.0.0",
     "eslint": "^5.10.0",
