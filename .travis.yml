@@ -13,16 +13,15 @@ node_js:
 install:
   - npm i
   - npm i -g jest codecov eslint
-after_success:
-  - snyk monitor
-jobs:
-  include:
-    - stage: test
-      script:
+script:
       - npm run lint
       - snyk auth $SNYK_TOKEN
       - npm test
       - codecov
+after_success:
+  - snyk monitor
+jobs:
+  include:
     - stage: release
       node_js: 'node'
       script: skip
