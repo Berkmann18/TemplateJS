@@ -25,12 +25,10 @@ jobs:
       - codecov
     - stage: deploy
       script: npm run semantic-release
-      node_js: 'node'
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
 stages:
-  # - install
   - test
   - name: deploy
     if: branch = master
