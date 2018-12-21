@@ -66,7 +66,7 @@
     "remark-preset-lint-recommended": "^3.0.2",
     "sass-loader": "^7.0.1",
     "semantic-release": "^15.13.1",
-    "snyk": "^1.118.1",
+    "snyk": "^1.118.2",
     "stylelint": "^9.9.0",
     "stylelint-config-standard": "^18.2.0",
     "travis-deploy-once": "^5.0.11"
