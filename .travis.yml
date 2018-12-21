@@ -13,14 +13,24 @@ node_js:
 install:
   - npm i
   - npm i -g jest codecov eslint
-script:
-  - npm run lint
-  - snyk auth $SNYK_TOKEN
-  - npm test
-  - codecov
 after_success:
   - snyk monitor
-  - npm run travis-deploy-once "npm run semantic-release"
+jobs:
+  include:
+    - stage: test
+      script:
+      - npm run lint
+      - snyk auth $SNYK_TOKEN
+      - npm test
+      - codecov
+    - stage: deploy
+      script: npm run semantic-release
+      node_js: 'node'
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
+stages:
+  # - install
+  - test
+  - name: deploy
+    if: branch = master
