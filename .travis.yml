@@ -5,6 +5,7 @@ cache:
 notifications:
   email: false
 node_js:
+  - 'node'
   - '10'
   - '9'
   - '8'
@@ -22,12 +23,17 @@ jobs:
       - snyk auth $SNYK_TOKEN
       - npm test
       - codecov
-    - stage: deploy
-      script: npm run semantic-release
+    - stage: release
+      node_js: 'node'
+      script: skip
+      deploy:
+        provider: script
+        skip_cleanup: true
+        script: npm run semantic-release
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/
 stages:
   - test
-  - name: deploy
+  - name: release
     if: branch = master
