@@ -6,7 +6,8 @@
   },
   "extends": [
     "plugin:security/recommended",
-    "plugin:you-dont-need-lodash-underscore/compatible"
+    "plugin:you-dont-need-lodash-underscore/compatible",
+    "plugin:node/recommended"
   ],
   "rules": {
     "indent": [

@@ -29,6 +29,7 @@
 
 [![BCH compliance](https://bettercodehub.com/edge/badge/Berkmann18/TemplateJS?branch=master)](https://bettercodehub.com/)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/a772e53fef984a558ef4741392bd926d)](https://www.codacy.com/app/maxieberkmann/TemplateJS?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Berkmann18/TemplateJS&amp;utm_campaign=Badge_Grade)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 <!-- SauceLab badge -->
 <!-- [![Sauce Test Status](https://saucelabs.com/buildstatus/Berkmann18/TemplateJS)](https://saucelabs.com/u/Berkmann18/TemplateJS) -->
 <!-- [![Sauce Test Status](https://saucelabs.com/browser-matrix/Berkmann18/TemplateJS.svg)](https://saucelabs.com/u/Berkmann18/TemplateJS) -->
