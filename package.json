@@ -51,7 +51,7 @@
     "complexity-report": "^2.0.0-alpha",
     "conventional-changelog-eslint": "^3.0.1",
     "cz-adapter-eslint": "^0.1.2",
-    "documentation": "^9.1.0",
+    "documentation": "^9.1.1",
     "eslint": "^5.11.0",
     "eslint-plugin-node": "^8.0.0",
     "eslint-plugin-security": "^1.4.0",
