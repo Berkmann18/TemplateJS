@@ -37,7 +37,7 @@
 
 My template/base repo for JS projects.
 
-# Stack used
+## Stack used
 <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 <table style="text-align: center">
 	<tr>
@@ -54,7 +54,7 @@ My template/base repo for JS projects.
   </tr>
 </table>
 
-# Contributions
+## Contributions
 Please refer to [that](.github/CONTRIBUTING.md).
 
 ## Contributors
@@ -66,3 +66,15 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
+
+<!--## Backers
+
+Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/TemplateJS#backer)]
+
+<a href="https://opencollective.com/TemplateJS#backers" target="_blank"><img src="https://opencollective.com/TemplateJS/backers.svg?width=890"></a>
+
+
+## Sponsors
+
+Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/TemplateJS#sponsor)]
+-->
