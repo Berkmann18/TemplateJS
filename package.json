@@ -24,7 +24,9 @@
     "lint:css": "stylelint --config ./.stylelintrc.json scss/",
     "lint": "npm run lint:js && npm run lint:css && npm run lint:md",
     "semantic-release": "semantic-release",
-    "prepare": "snyk protect"
+    "prepare": "snyk protect",
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate"
   },
   "repository": {
     "type": "git",
