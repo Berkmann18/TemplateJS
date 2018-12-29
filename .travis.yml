@@ -14,10 +14,10 @@ install:
   - npm i
   - npm i -g jest codecov eslint
 script:
-      - npm run lint
-      - snyk auth $SNYK_TOKEN
-      - npm test
-      - codecov
+  - npm run lint
+  - snyk auth $SNYK_TOKEN
+  - npm test
+  - codecov
 after_success:
   - snyk monitor
 jobs:
@@ -33,6 +33,5 @@ branches:
   except:
     - /^v\d+\.\d+\.\d+$/
 stages:
-  # - test
   - name: release
     if: branch = master
