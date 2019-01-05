@@ -15,6 +15,9 @@ requestInfoDefaultTitles:
 # *OPTIONAL* Label to be added to Issues and Pull Requests with insufficient information given
 requestInfoLabelToAdd: needs-more-info
 
+requestInfoReplyComment: >
+  We would appreciate it if you could provide us with more info about this issue/PR!
+
 ## Configuration for todo - https://github.com/jasonetco/todo
 todo:
   keyword: "@makeAnIssue"
@@ -38,9 +41,6 @@ newPRWelcomeComment: >
 firstPRMergeComment: >
   :tada: Congrats on merging your first PR! We are proud of you!
 
-requestInfoReplyComment: >
-  We would appreciate it if you could provide us with more info about this issue/PR!
-
 
 #requestInfoLabelToAdd: request-info
 
@@ -54,7 +54,7 @@ sentimentBotToxicityThreshold: .7
 sentimentBotReplyComment: >
   Please be sure to review the code of conduct and be respectful of other users. cc/ @Berkmann18
 
-# Configuration for issuelabeler
+# Configuration for issuelabeler - https://riyadhalnur.github.io/issuelabeler/
 # Number of labels to fetch (optional). Defaults to 20
 numLabels: 40
 # These labels will not be used even if the issue contains them (optional). 
