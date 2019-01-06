@@ -1,5 +1,5 @@
-const code = require('../src/code');
+const { greeting } = require('../src/code');
 
-test('something', () => {
-
+test('Log but no result', () => {
+  expect(greeting('John')).toBeUndefined();
 });

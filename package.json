@@ -11,6 +11,7 @@
   "scripts": {
     "start": "node index.js",
     "test": "snyk test && jest",
+    "build": "babel src -d build",
     "doc:lint": "documentation lint index.js",
     "doc:html": "documentation build *.js -f html -o doc/ -a public",
     "doc": "npm run doc:lint && npm run doc:html",
@@ -49,9 +50,13 @@
   },
   "homepage": "https://github.com/Berkmann18/TemplateJS#readme",
   "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
     "@semantic-release/changelog": "^3.0.2",
     "@semantic-release/git": "^7.0.7",
     "all-contributors-cli": "^5.4.1",
+    "babel-core": "^7.0.0-bridge.0",
     "complexity-report": "^2.0.0-alpha",
     "conventional-changelog-eslint": "^3.0.1",
     "cz-adapter-eslint": "^0.1.2",
