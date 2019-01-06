@@ -17,8 +17,10 @@
 [![Build Status](https://travis-ci.org/Berkmann18/TemplateJS.svg?branch=master)](https://travis-ci.org/Berkmann18/TemplateJS)
 [![codecov.io Code Coverage](https://img.shields.io/codecov/c/github/Berkmann18/TemplateJS.svg?maxAge=2592000)](https://codecov.io/github/Berkmann18/TemplateJS?branch=master)
 [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
+[![eslint](https://aleen42.github.io/badges/src/eslint.svg)](./eslintrc.json)
 [![Known Vulnerabilities](https://snyk.io/test/github/Berkmann18/TemplateJS/badge.svg?targetFile=package.json)](https://snyk.io/test/github/Berkmann18/TemplateJS?targetFile=package.json)
 
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors)
 [![GitHub](https://img.shields.io/github/license/Berkmann18/TemplateJS.svg)](https://github.com/Berkmann18/TemplateJS/blob/master/LICENSE)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Berkmann18/TemplateJS/issues)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
@@ -36,7 +38,7 @@
 
 My template/base repo for JS projects.
 
-# Stack used
+## Stack used
 <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 <table style="text-align: center">
 	<tr>
@@ -53,5 +55,30 @@ My template/base repo for JS projects.
   </tr>
 </table>
 
-# Contributions
+## Contributions
 Please refer to [that](.github/CONTRIBUTING.md).
+
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+| [<img src="https://avatars0.githubusercontent.com/u/8260834?v=4" width="100px;"/><br /><sub><b>Maximilian Berkmann</b></sub>](http://maxcubing.wordpress.com)<br />[🐛](https://github.com/Berkmann18/TemplateJS/issues?q=author%3ABerkmann18 "Bug reports") [💻](https://github.com/Berkmann18/TemplateJS/commits?author=Berkmann18 "Code") [📖](https://github.com/Berkmann18/TemplateJS/commits?author=Berkmann18 "Documentation") [🤔](#ideas-Berkmann18 "Ideas, Planning, & Feedback") [💬](#question-Berkmann18 "Answering Questions") [👀](#review-Berkmann18 "Reviewed Pull Requests") | [<img src="https://avatars2.githubusercontent.com/u/36207117?v=4" width="100px;"/><br /><sub><b>Dependabot</b></sub>](https://dependabot.com)<br />[🔧](#tool-dependabot-bot "Tools") | [<img src="https://avatars1.githubusercontent.com/u/32174276?v=4" width="100px;"/><br /><sub><b>Semantic Release Bot</b></sub>](http://semantic-release.org/)<br />[📖](https://github.com/Berkmann18/TemplateJS/commits?author=semantic-release-bot "Documentation") [📦](#platform-semantic-release-bot "Packaging/porting to new platform") |
+| :---: | :---: | :---: |
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind welcome!
+
+<!--## Backers
+
+Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/TemplateJS#backer)]
+
+<a href="https://opencollective.com/TemplateJS#backers" target="_blank"><img src="https://opencollective.com/TemplateJS/backers.svg?width=890"></a>
+
+
+## Sponsors
+
+Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/TemplateJS#sponsor)]
+-->
+
