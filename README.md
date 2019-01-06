@@ -17,6 +17,7 @@
 [![Build Status](https://travis-ci.org/Berkmann18/TemplateJS.svg?branch=master)](https://travis-ci.org/Berkmann18/TemplateJS)
 [![codecov.io Code Coverage](https://img.shields.io/codecov/c/github/Berkmann18/TemplateJS.svg?maxAge=2592000)](https://codecov.io/github/Berkmann18/TemplateJS?branch=master)
 [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
+[![eslint](https://aleen42.github.io/badges/src/eslint.svg)](./eslintrc.json)
 [![Known Vulnerabilities](https://snyk.io/test/github/Berkmann18/TemplateJS/badge.svg?targetFile=package.json)](https://snyk.io/test/github/Berkmann18/TemplateJS?targetFile=package.json)
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors)
