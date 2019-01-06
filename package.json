@@ -25,8 +25,9 @@
     "lint": "npm run lint:js && npm run lint:css && npm run lint:md",
     "semantic-release": "semantic-release",
     "prepare": "snyk protect",
-    "contributors:add": "all-contributors add",
-    "contributors:generate": "all-contributors generate"
+    "contribs:add": "all-contributors add",
+    "contribs:generate": "all-contributors generate",
+    "contribs:check": "all-contributors check"
   },
   "repository": {
     "type": "git",
