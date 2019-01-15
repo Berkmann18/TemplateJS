@@ -106,5 +106,24 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
+  },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "index.js",
+      "src/*.js",
+      "test/*.js",
+      "!**/node_modules/**",
+      "!**/_*.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 80,
+        "functions": 90,
+        "lines": 50,
+        "statements": 50
+      }
+    },
+    "testEnvironment": "node"
   }
 }
