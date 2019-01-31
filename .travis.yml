@@ -5,11 +5,7 @@ cache:
 notifications:
   email: false
 node_js:
-  - 'node'
-  - '10'
-  - '9'
-  - '8'
-  - '6'
+  - 'lts/*'
 install:
   - npm i
   - npm i -g jest codecov eslint
