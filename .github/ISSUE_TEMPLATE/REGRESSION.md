@@ -1,6 +1,7 @@
 ---
 name: 💥 Regression Report
 about: Report unexpected behaviour that worked in previous versions
+labels: 'Type: Regression :boom:'
 ---
 
 <!--lint disable heading-style -->
@@ -18,7 +19,7 @@ It stopped working in version:
 ## Environment
 -   Version: 
 -   OS(s): 
--   Browser(s): 
+-   Browser(s) (if applicable): 
 -   Node version: 
 -   NPM version: 
 
