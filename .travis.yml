@@ -4,22 +4,20 @@ cache:
     - ~/.npm
 notifications:
   email: false
-node_js:
-  - 'lts/*'
 install:
   - npm i
   - npm i -g jest codecov eslint
-script:
-  - npm run lint
-  - snyk auth $SNYK_TOKEN
-  - npm test
-  - codecov
 after_success:
   - snyk monitor
 jobs:
   include:
     - stage: test
       node_js: 'lts/*'
+      script:
+        - npm run lint
+        - snyk auth $SNYK_TOKEN
+        - npm test
+        - codecov
     - stage: release
       node_js: 'node'
       script: skip
