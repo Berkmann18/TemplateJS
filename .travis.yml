@@ -18,6 +18,8 @@ after_success:
   - snyk monitor
 jobs:
   include:
+    - stage: test
+      node_js: 'lts/*'
     - stage: release
       node_js: 'node'
       script: skip
