@@ -20,7 +20,7 @@ after_success:
 jobs:
   include:
     - stage: release
-      node_js: 'node'
+      node_js: 'stable'
       script: skip
       deploy:
         provider: script
