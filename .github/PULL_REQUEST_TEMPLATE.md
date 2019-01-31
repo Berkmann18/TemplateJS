@@ -1,7 +1,3 @@
----
-labels: 'Status: Review Needed :passport_control:, Priority: Medium'
----
-
 ## Checklist
 
 -   [ ] The PR follows the [guidelines](CONTRIBUTING.md)
