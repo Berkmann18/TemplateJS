@@ -1,7 +1,7 @@
 ---
 name: 🐛 Bug report
 about: Create a report to help us improve
-labels: "Type: Bug :bug:"
+labels: 'Type: Bug :bug:, Priority: Medium'
 ---
 
 <!--lint disable heading-style -->

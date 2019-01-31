@@ -1,7 +1,7 @@
 ---
 name: 💥 Regression Report
 about: Report unexpected behaviour that worked in previous versions
-labels: 'Type: Regression :boom:'
+labels: 'Type: Regression :boom:, Priority: Medium'
 ---
 
 <!--lint disable heading-style -->
