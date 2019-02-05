@@ -70,7 +70,7 @@
     "remark-preset-lint-recommended": "^3.0.2",
     "sass-loader": "^7.0.1",
     "semantic-release": "^15.13.3",
-    "snyk": "^1.124.0",
+    "snyk": "^1.124.1",
     "stylelint": "^9.10.1",
     "stylelint-config-standard": "^18.2.0"
   },
