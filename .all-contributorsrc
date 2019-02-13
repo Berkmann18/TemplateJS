@@ -43,6 +43,16 @@
         "doc",
         "platform"
       ]
+    },
+    {
+      "login": "cotsog",
+      "name": "Dominic Jodoin",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/149366?v=4",
+      "profile": "http://cotsog.wordpress.com",
+      "contributions": [
+        "infra"
+      ]
     }
-  ]
+  ],
+  "contributorsPerLine": 7
 }
