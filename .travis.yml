@@ -30,5 +30,6 @@ branches:
   except:
     - /^v\d+\.\d+\.\d+$/
 stages:
+  - name: test
   - name: release
     if: branch = master
