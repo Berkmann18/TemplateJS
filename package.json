@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "test": "snyk test && jest",
+    "test": "snyk test -d && jest",
     "doc:lint": "documentation lint index.js",
     "doc:html": "documentation build *.js -f html -o doc/ -a public",
     "doc": "npm run doc:lint && npm run doc:html",
