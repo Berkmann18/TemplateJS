@@ -8,7 +8,7 @@ node_js:
   - 'stable'
   - 'lts/*'
 install:
-  - npm i
+  - npm ci
   - npm i -g jest codecov eslint
 script:
   - npm run lint
