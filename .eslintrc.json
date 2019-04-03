@@ -3,7 +3,12 @@
     "node": true,
     "browser": true
   },
+  "plugins": [
+    "security",
+    "jquery"
+  ],
   "extends": [
+    "eslint:recommended",
     "plugin:security/recommended",
     "plugin:you-dont-need-lodash-underscore/compatible",
     "plugin:node/recommended"
