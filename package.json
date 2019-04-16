@@ -22,7 +22,7 @@
     "min:css": "node-sass -w scss/ -o dist/css/ --recursive --output-style compressed",
     "css": "node-sass -w scss/ -o dist/css/ --recursive",
     "lint:css": "stylelint --config ./.stylelintrc.json scss/",
-    "lint": "npm run lint:js && npm run lint:css && npm run lint:md",
+    "lint": "npm run lint:js && npm run lint:md",
     "semantic-release": "semantic-release",
     "prepare": "snyk protect",
     "contribs:add": "all-contributors add",
