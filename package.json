@@ -72,7 +72,7 @@
     "sass-loader": "^7.0.1",
     "semantic-release": "^15.13.16",
     "snyk": "^1.174.1",
-    "stylelint": "^10.0.1",
+    "stylelint": "^10.1.0",
     "stylelint-config-standard": "^18.3.0"
   },
   "browserslist": [
