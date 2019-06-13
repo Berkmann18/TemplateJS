@@ -50,7 +50,7 @@
   },
   "homepage": "https://github.com/Berkmann18/TemplateJS#readme",
   "devDependencies": {
-    "@semantic-release/changelog": "^3.0.2",
+    "@semantic-release/changelog": "^3.0.4",
     "@semantic-release/git": "^7.0.8",
     "all-contributors-cli": "^6.7.0",
     "complexity-report": "^2.0.0-alpha",
