@@ -58,7 +58,7 @@
     "cz-adapter-eslint": "^0.3.0",
     "documentation": "^12.0.1",
     "eslint": "^6.0.1",
-    "eslint-plugin-jquery": "^1.5.0",
+    "eslint-plugin-jquery": "^1.5.1",
     "eslint-plugin-node": "^9.1.0",
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-you-dont-need-lodash-underscore": "^6.5.0",
