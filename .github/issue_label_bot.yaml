@@ -2,3 +2,6 @@ label-alias:
   bug: 'Type: Bug :bug:'
   feature_request: 'Type: Enhancement :bulb:'
   question: 'Type: Question :grey_question:'
+  doc: 'Type: Documentation :book:'
+  regression: 'Type: Regression :boom:'
+  security: 'Type: Vulnerability :warning:'
