@@ -1,3 +1,73 @@
+## [1.0.5](https://github.com/Berkmann18/TemplateJS/compare/v1.0.4...v1.0.5) (2019-08-26)
+
+
+### Chore
+
+* Added an IssueLabelBot config ([a741c296de8ba9d75850584165eeefe30be6bd73](https://github.com/Berkmann18/TemplateJS/commit/a741c296de8ba9d75850584165eeefe30be6bd73))
+* Added more labels to issue_label ([10ba6385eed3e6262e6d30e0b0c250f50b4e26d5](https://github.com/Berkmann18/TemplateJS/commit/10ba6385eed3e6262e6d30e0b0c250f50b4e26d5))
+* Removed `npm` release plugin ([d7bbe470df9850bb2a204f2367664c9cefcaff72](https://github.com/Berkmann18/TemplateJS/commit/d7bbe470df9850bb2a204f2367664c9cefcaff72))
+
+### Fix
+
+* Security ([1600433dd1c3ca3e5c33ace486459507bee8e9e8](https://github.com/Berkmann18/TemplateJS/commit/1600433dd1c3ca3e5c33ace486459507bee8e9e8))
+
+### Upgrade
+
+* [Security] Bump lodash from 4.17.11 to 4.17.14 ([2803cf7cf026b272152c3fdc4106451f843e7309](https://github.com/Berkmann18/TemplateJS/commit/2803cf7cf026b272152c3fdc4106451f843e7309))
+* Bump all-contributors-cli from 6.7.0 to 6.8.0 ([af0591eca67711c6e63992c9fcab27a31ef3fb00](https://github.com/Berkmann18/TemplateJS/commit/af0591eca67711c6e63992c9fcab27a31ef3fb00))
+* Bump all-contributors-cli from 6.8.0 to 6.8.1 ([824a4afbd62d4be87c361f80449665ced9956647](https://github.com/Berkmann18/TemplateJS/commit/824a4afbd62d4be87c361f80449665ced9956647))
+* Bump documentation from 12.0.0 to 12.0.1 ([f4ecd50e180ad264eb7ac6d54263a97f40318d6d](https://github.com/Berkmann18/TemplateJS/commit/f4ecd50e180ad264eb7ac6d54263a97f40318d6d))
+* Bump documentation from 12.0.1 to 12.0.2 ([41acf391fb15f98769f49e782b0db46ad9a1fbef](https://github.com/Berkmann18/TemplateJS/commit/41acf391fb15f98769f49e782b0db46ad9a1fbef))
+* Bump documentation from 12.0.2 to 12.0.3 ([80e5d9bbfa68bd3435dae3adbbd91d4dfd26e5e6](https://github.com/Berkmann18/TemplateJS/commit/80e5d9bbfa68bd3435dae3adbbd91d4dfd26e5e6))
+* Bump documentation from 12.0.3 to 12.1.0 ([d538ba19ac2089fb273ceeb6d9e9c11f9dfd1578](https://github.com/Berkmann18/TemplateJS/commit/d538ba19ac2089fb273ceeb6d9e9c11f9dfd1578))
+* Bump documentation from 12.1.0 to 12.1.1 ([9d305b08dfa34424d5fc245616bdc8f891f54b87](https://github.com/Berkmann18/TemplateJS/commit/9d305b08dfa34424d5fc245616bdc8f891f54b87))
+* Bump eslint from 6.0.1 to 6.1.0 ([cc7e8918ddc16818f760c5ada2899ddbe5927174](https://github.com/Berkmann18/TemplateJS/commit/cc7e8918ddc16818f760c5ada2899ddbe5927174))
+* Bump eslint from 6.1.0 to 6.2.0 ([a9717e1df857e36ce7ad2f92dc6d059d4455f383](https://github.com/Berkmann18/TemplateJS/commit/a9717e1df857e36ce7ad2f92dc6d059d4455f383))
+* Bump eslint from 6.2.0 to 6.2.1 ([7776c0406083f06f8075421f49a9e32595ebbcb7](https://github.com/Berkmann18/TemplateJS/commit/7776c0406083f06f8075421f49a9e32595ebbcb7))
+* Bump eslint from 6.2.1 to 6.2.2 ([67fe6b9e9f2fabceb9067e51e17bd4040659f66c](https://github.com/Berkmann18/TemplateJS/commit/67fe6b9e9f2fabceb9067e51e17bd4040659f66c))
+* Bump eslint-plugin-jquery from 1.5.0 to 1.5.1 ([2e898a77ebc4c5203e92231f356b8731dacf7a4e](https://github.com/Berkmann18/TemplateJS/commit/2e898a77ebc4c5203e92231f356b8731dacf7a4e))
+* Bump eslint-plugin-you-dont-need-lodash-underscore ([d857dfae7ee2c70df5d5ead47e7be09d2e84b017](https://github.com/Berkmann18/TemplateJS/commit/d857dfae7ee2c70df5d5ead47e7be09d2e84b017))
+* Bump husky from 3.0.0 to 3.0.1 ([f442d5ea1101fe2ac9b3b9cc79358ceeab67033e](https://github.com/Berkmann18/TemplateJS/commit/f442d5ea1101fe2ac9b3b9cc79358ceeab67033e))
+* Bump husky from 3.0.1 to 3.0.2 ([6810ebf1fd6b24876044ef98451b8b1e777b43d5](https://github.com/Berkmann18/TemplateJS/commit/6810ebf1fd6b24876044ef98451b8b1e777b43d5))
+* Bump husky from 3.0.2 to 3.0.3 ([a155c257127de733aabf279e162e6273edfdd185](https://github.com/Berkmann18/TemplateJS/commit/a155c257127de733aabf279e162e6273edfdd185))
+* Bump husky from 3.0.3 to 3.0.4 ([71507a8aa4d143e0cfc3c8971733928ef8b2483e](https://github.com/Berkmann18/TemplateJS/commit/71507a8aa4d143e0cfc3c8971733928ef8b2483e))
+* Bump jest from 24.8.0 to 24.9.0 ([be6e011579bc890ad33b884dab5748a09a88cddd](https://github.com/Berkmann18/TemplateJS/commit/be6e011579bc890ad33b884dab5748a09a88cddd))
+* Bump jest-cli from 24.8.0 to 24.9.0 ([16d3328c3c1ce41ae6a64a664a03c3fe92e315f9](https://github.com/Berkmann18/TemplateJS/commit/16d3328c3c1ce41ae6a64a664a03c3fe92e315f9))
+* Bump lint-staged from 9.1.0 to 9.2.0 ([9995f1957997b1920d483dc89ebd0708f39cd46c](https://github.com/Berkmann18/TemplateJS/commit/9995f1957997b1920d483dc89ebd0708f39cd46c))
+* Bump lint-staged from 9.2.0 to 9.2.1 ([35da7615ec46ed826a2daac2c351de45826facf5](https://github.com/Berkmann18/TemplateJS/commit/35da7615ec46ed826a2daac2c351de45826facf5))
+* Bump lint-staged from 9.2.1 to 9.2.3 ([61cfb0d3774d53353aacdf9122c0a1cc6c588025](https://github.com/Berkmann18/TemplateJS/commit/61cfb0d3774d53353aacdf9122c0a1cc6c588025))
+* Bump lint-staged from 9.2.3 to 9.2.4 ([84c68bcb5cd110c575aab0ebb7e6490c7ab6d667](https://github.com/Berkmann18/TemplateJS/commit/84c68bcb5cd110c575aab0ebb7e6490c7ab6d667))
+* Bump remark-cli from 6.0.1 to 7.0.0 ([fe8be2f3b78b3e00d7d255b470cf80df98641206](https://github.com/Berkmann18/TemplateJS/commit/fe8be2f3b78b3e00d7d255b470cf80df98641206))
+* Bump sass-loader from 7.1.0 to 7.2.0 ([a6d1b041d81b35678d4bdba826c760fbd27c9e5e](https://github.com/Berkmann18/TemplateJS/commit/a6d1b041d81b35678d4bdba826c760fbd27c9e5e))
+* Bump sass-loader from 7.2.0 to 7.3.1 ([9595d4439b993f20953e87611c59923199d34638](https://github.com/Berkmann18/TemplateJS/commit/9595d4439b993f20953e87611c59923199d34638))
+* Bump semantic-release from 15.13.18 to 15.13.19 ([b4339e51dd9a0d475a8853779478c755cdfef8a1](https://github.com/Berkmann18/TemplateJS/commit/b4339e51dd9a0d475a8853779478c755cdfef8a1))
+* Bump semantic-release from 15.13.19 to 15.13.21 ([00ed467a0749f892b3bd31c50aa5364be346675d](https://github.com/Berkmann18/TemplateJS/commit/00ed467a0749f892b3bd31c50aa5364be346675d))
+* Bump semantic-release from 15.13.21 to 15.13.24 ([20535ed51bbe0d05e503c73d969adc35e831d0f9](https://github.com/Berkmann18/TemplateJS/commit/20535ed51bbe0d05e503c73d969adc35e831d0f9))
+* Bump snyk from 1.192.4 to 1.192.6 ([5a9e3151e437cad0e2902c2d52c018cda54674db](https://github.com/Berkmann18/TemplateJS/commit/5a9e3151e437cad0e2902c2d52c018cda54674db))
+* Bump snyk from 1.192.6 to 1.193.0 ([976b5f8c14a123cee6c48590f084063eef1b4e5e](https://github.com/Berkmann18/TemplateJS/commit/976b5f8c14a123cee6c48590f084063eef1b4e5e))
+* Bump snyk from 1.193.0 to 1.193.1 ([83ecb3b2800ead0d2535c04ac0a0c80e3910b925](https://github.com/Berkmann18/TemplateJS/commit/83ecb3b2800ead0d2535c04ac0a0c80e3910b925))
+* Bump snyk from 1.193.1 to 1.193.2 ([84e1b3bcf323595bc65a34caca16b56cb83a4f54](https://github.com/Berkmann18/TemplateJS/commit/84e1b3bcf323595bc65a34caca16b56cb83a4f54))
+* Bump snyk from 1.193.2 to 1.194.0 ([333ca769af15bb0db6c06b67fd794a9deff9842f](https://github.com/Berkmann18/TemplateJS/commit/333ca769af15bb0db6c06b67fd794a9deff9842f))
+* Bump snyk from 1.194.0 to 1.195.1 ([215633c032a2be11bdf817f7d528a2c0793d4e3b](https://github.com/Berkmann18/TemplateJS/commit/215633c032a2be11bdf817f7d528a2c0793d4e3b))
+* Bump snyk from 1.195.1 to 1.198.0 ([ca6b207f81b25b99a2c0e7384f35a21ac6d84cfa](https://github.com/Berkmann18/TemplateJS/commit/ca6b207f81b25b99a2c0e7384f35a21ac6d84cfa))
+* Bump snyk from 1.198.0 to 1.199.0 ([4280d946d40209291ff610b87d95953db9cbe674](https://github.com/Berkmann18/TemplateJS/commit/4280d946d40209291ff610b87d95953db9cbe674))
+* Bump snyk from 1.199.0 to 1.199.2 ([68df61a54e8b4fb969dcb4c668446f3e46d1e5a7](https://github.com/Berkmann18/TemplateJS/commit/68df61a54e8b4fb969dcb4c668446f3e46d1e5a7))
+* Bump snyk from 1.199.2 to 1.200.1 ([ad79e4b7e32d79fdcff47248f4287a2a28d80213](https://github.com/Berkmann18/TemplateJS/commit/ad79e4b7e32d79fdcff47248f4287a2a28d80213))
+* Bump snyk from 1.200.1 to 1.203.0 ([85527c24381b22ac107c54fa84a9807c48b44320](https://github.com/Berkmann18/TemplateJS/commit/85527c24381b22ac107c54fa84a9807c48b44320))
+* Bump snyk from 1.203.0 to 1.205.0 ([d2b6e5d7941119d4c149abe5204e28f51f8706d4](https://github.com/Berkmann18/TemplateJS/commit/d2b6e5d7941119d4c149abe5204e28f51f8706d4))
+* Bump snyk from 1.205.0 to 1.207.2 ([a0c5ac8320a2add002840ae903fd69f069e2d5c5](https://github.com/Berkmann18/TemplateJS/commit/a0c5ac8320a2add002840ae903fd69f069e2d5c5))
+* Bump snyk from 1.207.2 to 1.208.0 ([46b44ba6074b57ad5ff85ada0f773caff54d8d6b](https://github.com/Berkmann18/TemplateJS/commit/46b44ba6074b57ad5ff85ada0f773caff54d8d6b))
+* Bump snyk from 1.208.0 to 1.210.0 ([094c498a6fdf5837497cb02adc98cbe16fab4d96](https://github.com/Berkmann18/TemplateJS/commit/094c498a6fdf5837497cb02adc98cbe16fab4d96))
+* Bump snyk from 1.210.0 to 1.211.0 ([d228e847b632b08fb1c88681bca910c1e830f44e](https://github.com/Berkmann18/TemplateJS/commit/d228e847b632b08fb1c88681bca910c1e830f44e))
+* Bump snyk from 1.211.0 to 1.213.0 ([a53aed798ac938cc4d6b3d7ff09eca8460aad809](https://github.com/Berkmann18/TemplateJS/commit/a53aed798ac938cc4d6b3d7ff09eca8460aad809))
+* Bump snyk from 1.213.0 to 1.216.0 ([b54129daa63fbe469a7caa2911f75fd429ad984d](https://github.com/Berkmann18/TemplateJS/commit/b54129daa63fbe469a7caa2911f75fd429ad984d))
+* Bump snyk from 1.216.0 to 1.216.2 ([329e83580b572f1a3f31339d89f348760fa30f20](https://github.com/Berkmann18/TemplateJS/commit/329e83580b572f1a3f31339d89f348760fa30f20))
+* Bump snyk from 1.216.2 to 1.216.4 ([6adf69c3e0c69bbb365405561dd9a8c483de4f1a](https://github.com/Berkmann18/TemplateJS/commit/6adf69c3e0c69bbb365405561dd9a8c483de4f1a))
+* Bump snyk from 1.216.4 to 1.217.0 ([4ac1e2bd0c1a303ee53c337451258de901cd738b](https://github.com/Berkmann18/TemplateJS/commit/4ac1e2bd0c1a303ee53c337451258de901cd738b))
+* Bump snyk from 1.217.0 to 1.217.1 ([190e2411cd87e74272c33fff6dcf1ce4c6851e43](https://github.com/Berkmann18/TemplateJS/commit/190e2411cd87e74272c33fff6dcf1ce4c6851e43))
+* Bump snyk from 1.217.1 to 1.217.3 ([c133eee4e03545a8c5d68c9fdb0a8824a46276b8](https://github.com/Berkmann18/TemplateJS/commit/c133eee4e03545a8c5d68c9fdb0a8824a46276b8))
+* Bump snyk from 1.217.3 to 1.219.0 ([73490018613317b9fccef14c217971e65e9bd3ba](https://github.com/Berkmann18/TemplateJS/commit/73490018613317b9fccef14c217971e65e9bd3ba))
+
 ## [1.0.4](https://github.com/Berkmann18/TemplateJS/compare/v1.0.3...v1.0.4) (2019-07-10)
 
 
