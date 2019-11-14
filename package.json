@@ -65,7 +65,7 @@
     "husky": "^3.0.9",
     "jest": "^24.9.0",
     "jest-cli": "^24.9.0",
-    "lint-staged": "^9.4.2",
+    "lint-staged": "^9.4.3",
     "node-sass": "^4.13.0",
     "prettier": "^1.19.1",
     "remark-cli": "^7.0.1",
