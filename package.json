@@ -51,7 +51,7 @@
   "homepage": "https://github.com/Berkmann18/TemplateJS#readme",
   "devDependencies": {
     "@semantic-release/changelog": "^3.0.6",
-    "@semantic-release/git": "^7.0.18",
+    "@semantic-release/git": "^8.0.0",
     "all-contributors-cli": "^6.12.0",
     "complexity-report": "^2.0.0-alpha",
     "conventional-changelog-eslint": "^3.0.4",
@@ -72,7 +72,7 @@
     "remark-preset-lint-consistent": "^2.0.3",
     "remark-preset-lint-recommended": "^3.0.3",
     "sass-loader": "^7.3.1",
-    "semantic-release": "^15.14.0",
+    "semantic-release": "^16.0.0",
     "snyk": "^1.277.3",
     "stylelint": "^12.0.1",
     "stylelint-config-standard": "^19.0.0"
