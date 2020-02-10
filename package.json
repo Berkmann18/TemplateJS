@@ -75,7 +75,7 @@
     "semantic-release": "^16.0.4",
     "snyk": "^1.277.3",
     "stylelint": "^13.0.0",
-    "stylelint-config-standard": "^19.0.0"
+    "stylelint-config-standard": "^20.0.0"
   },
   "browserslist": [
     "> 1%",
