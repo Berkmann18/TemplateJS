@@ -70,7 +70,7 @@
     "prettier": "^2.0.2",
     "remark-cli": "^7.0.1",
     "remark-preset-lint-consistent": "^3.0.0",
-    "remark-preset-lint-recommended": "^3.0.4",
+    "remark-preset-lint-recommended": "^4.0.0",
     "sass-loader": "^8.0.2",
     "semantic-release": "^17.0.4",
     "snyk": "^1.277.3",
