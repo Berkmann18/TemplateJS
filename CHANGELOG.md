@@ -1,3 +1,45 @@
+# 1.1.0 (2020-04-12)
+
+### Build
+
+    * Fixed errors from warnings (90684b3)
+    * Hotfix (9df4d86)
+    * Release Build fixed? (65f32db)
+
+### Chore
+
+    * Lint fix (27e7543)
+    * MD lint fix (61908c8)
+
+### Fix
+
+    * Typo fixes + cleanup (9b43ab1)
+    * Vulnerability fix (980dd56)
+
+### New
+
+    * SCSS dummy (053def3)
+
+### Upgrade
+
+    * [Security] Bump minimist from 1.2.0 to 1.2.5 (adc9dc9)
+    * Bump documentation from 12.2.0 to 12.3.0 (85143dd)
+    * Bump husky from 4.2.3 to 4.2.5 (dcae02a)
+    * Bump jest from 25.2.6 to 25.2.7 (c71d16c)
+    * Bump jest from 25.2.7 to 25.3.0 (3fb03f4)
+    * Bump jest-cli from 25.2.6 to 25.2.7 (56d945d)
+    * Bump jest-cli from 25.2.7 to 25.3.0 (fa1eb84)
+    * Bump lint-staged from 10.1.1 to 10.1.2 (71d26c8)
+    * Bump lint-staged from 10.1.2 to 10.1.3 (623c912)
+    * Bump minimist from 1.2.0 to 1.2.5 (cd13f26)
+    * Bump prettier from 2.0.2 to 2.0.3 (dfb6833)
+    * Bump prettier from 2.0.3 to 2.0.4 (c82beb8)
+    * Bump snyk from 1.305.0 to 1.305.1 (6e1bcf7)
+    * Bump stylelint from 13.2.1 to 13.3.0 (932047d)
+    * Bump stylelint from 13.3.0 to 13.3.1 (c024989)
+
+
+
 ## [1.0.6](https://github.com/Berkmann18/TemplateJS/compare/v1.0.5...v1.0.6) (2020-04-04)
 
 
