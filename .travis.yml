@@ -24,7 +24,7 @@ jobs:
       script: skip
       deploy:
         provider: script
-        skip_cleanup: true
+        cleanup: false
         script: npm run semantic-release
 branches:
   except:
