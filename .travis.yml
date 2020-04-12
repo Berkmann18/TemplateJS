@@ -9,7 +9,7 @@ node_js:
   - 'lts/*'
 install:
   - npm ci
-  - npm i -g jest codecov eslint
+  - npm i -g jest codecov eslint semantic-release
 script:
   - npm run lint
   - snyk auth $SNYK_TOKEN
