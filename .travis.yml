@@ -1,4 +1,5 @@
 language: node_js
+os: linux
 cache:
   directories:
     - ~/.npm
@@ -9,7 +10,7 @@ node_js:
   - 'lts/*'
 install:
   - npm ci
-  - npm i -g jest codecov eslint semantic-release
+  - npm i -g jest codecov eslint
 script:
   - npm run lint
   - snyk auth $SNYK_TOKEN
@@ -24,7 +25,6 @@ jobs:
       script: skip
       deploy:
         provider: script
-        cleanup: false
         script: npm run semantic-release
 branches:
   except:
