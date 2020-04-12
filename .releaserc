@@ -12,6 +12,6 @@
     "@semantic-release/github",
     ["@semantic-release/git", {
       "message": "Chore: Release ${nextRelease.version} :tada: [skip ci]\n\n${nextRelease.notes}"
-    }],
+    }]
   ]
 }
