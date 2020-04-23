@@ -16,7 +16,5 @@ This PR implements:
 -   [ ] Other, please specify:
 
 ## Details
-What does this PR implements exactly?
-
-What issues does this resolve?
+What does this PR do exactly?
 <!-- Fixes #1, Closes #2, Ref #3 -->
