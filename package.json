@@ -57,7 +57,7 @@
     "conventional-changelog-eslint": "^3.0.9",
     "cz-adapter-eslint": "^0.3.0",
     "documentation": "^13.1.0",
-    "eslint": "^7.16.0",
+    "eslint": "^7.17.0",
     "eslint-plugin-jquery": "^1.5.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-security": "^1.4.0",
