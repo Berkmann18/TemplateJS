@@ -62,7 +62,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-you-dont-need-lodash-underscore": "^6.10.0",
-    "husky": "^4.2.5",
+    "husky": "^4.3.8",
     "jest": "^26.0.1",
     "jest-cli": "^26.0.1",
     "lint-staged": "^10.2.7",
